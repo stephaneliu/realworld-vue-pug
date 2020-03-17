@@ -5,8 +5,7 @@
     .event-card.-shadow
       span.eyebrow @{{ event.time }} on {{ event.date }} &nbsp;
       h4.title {{ event.title }}
-      BaseIcon(name="align-justify")
-      span {{ event.attendees.length }} attending
+      BaseIcon(name="users") {{ event.attendees.length }} attending
 </template>
 
 <script>
